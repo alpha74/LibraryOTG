@@ -1,0 +1,525 @@
+body
+{
+	background: #FBF8EF ;
+
+	min-height: 900px ;
+	min-width: 1200px ;
+}
+
+#box-left
+{
+	height: 95% ;
+	width: 20% ;
+
+	min-height: 600px ;
+	
+	margin-left: 2% ;	
+		
+	float: left ;
+}
+
+#jump-top
+{
+	background: grey ;
+	color: white ;
+	
+	padding: 4px ;
+	border: 2px solid black ;
+	border-radius: 2px ;
+	
+	opacity: 10% ;
+	
+	position: fixed ;
+	bottom: 10px ;
+	left: 40px ;
+	
+	transition: 1s ;
+	-moz-transition: 1s ;
+}
+#jump-top:hover
+{
+	background: black ;
+	opacity: 95% ;
+}
+
+#show-menu, #hide-menu
+{
+	display: none ;
+	margin-left: 15% ;
+	
+	width: 30% ;
+	height: 4% ;
+	
+	font-size: 60% ;
+	
+	border: 2px solid black ;
+	border-radius: 4px ;
+	
+	background: grey ;
+	color: white ;
+}
+
+#show-filters, #hide-filters
+{
+	display: none ;
+	margin-left: 10% ;
+	
+	width: 30% ;
+	height: 4% ;
+	
+	font-size: 80% ;
+	
+	border: 2px solid black ;
+	border-radius: 4px ;
+	
+	background: grey ;
+	color: white ;
+}
+#show-menu:active, #hide-menu:active, #show-filters:active, #hide-filters:active
+{
+	background: white ;
+	color: black ;
+	transition: 0.5s ;
+}
+
+#box-left1
+{	
+	height: auto ;
+	padding: 4% ;
+	
+	font-size: 140% ;
+	font-style: Times New Roman ;
+	
+	border: 1px solid black ;
+	border-right: 2px solid black ;
+	border-bottom: 2px solid black ;
+	
+	background: #FAFAFA ;
+}
+
+#button-tag-upper-search
+{
+	min-height: 20px ;
+	min-width: 30px ;
+	
+	max-height: 35px ;
+	
+	height: 3% ;
+	width: 16% ;
+
+	font-size: 60% ;
+	
+	background: #ECCA4C ;
+	color: black ;
+	
+	border:1px solid #E3A11C ;
+	border-radius: 2px ;
+	
+	margin-top: -4% ;
+}
+
+#input-search1
+{
+	min-width: 150px ;
+	width: 70% ;
+	
+	margin-left: 5% ;
+}
+
+#button-tag-upper
+{
+	min-height: 20px ;
+	min-width: 200px ;
+	
+	max-height: 35px ;
+	
+	height: 3% ;
+	width: 60% ;
+
+	font-size: 60% ;
+	
+	background: #ECCA4C ;
+	color: black ;
+	
+	border:1px solid #E3A11C ;
+	border-radius: 2px ;
+	
+	margin-left: 5% ;
+	margin-top: -6% ;
+}
+
+#button-tag-upper:hover, #button-tag-upper-search:hover
+{
+	cursor: pointer ;
+	color: white ;
+	background: #E2A222 ;
+}
+
+#button-tag-upper:active, #button-tag-upper-search:active
+{
+	background: black ;
+	color: white ;
+}
+
+#small-text1
+{
+	font-size: 80% ;
+	color: red ;
+}
+
+#box-left2
+{
+	height: auto ;
+
+	border: 1px solid black ;
+	
+	border-right: 2px solid black ;
+	border-bottom: 2px solid black ;
+	
+	background: #FAFAFA ;
+	
+	padding: 4% ;
+	
+}
+
+#box-left2-text
+{
+	font-size: 120% ;
+}
+
+#button-tag-selected
+{
+	min-height: 20px ;
+	min-width: 200px ;
+	
+	max-height: 35px ;
+	
+	height: 4% ;
+	width: 72% ;
+
+	font-size: 90% ;
+	
+	background: #FA7007 ;
+	
+	border:1px solid #8A0808 ;
+	border-radius: 2px ;
+	
+	margin-left: 5% ;
+	margin-top: 1% ;
+	
+	padding: 1% ;
+}
+#button-tag
+{
+	min-height: 20px ;
+	min-width: 200px ;
+	
+	max-height: 35px ;
+	
+	height: 4% ;
+	width: 90% ;
+
+	font-size: 90% ;
+	
+	background: #F0B669 ;
+	
+	border:1px solid #8A0808 ;
+	border-radius: 2px ;
+	
+	margin-left: 5% ;
+	margin-top: -6% ;
+	padding: 1% ;
+}
+#button-tag:hover
+{
+	cursor: pointer ;
+	
+	background: #FA7007 ;
+}
+
+#button-tag:active
+{
+	background: black ;
+	color: white ;
+}
+
+#wrap
+{
+	float: left ;
+	
+	min-height: 40% ;
+	
+	margin-left: 2% ;
+	margin-right: 2% ;
+	
+	width: 72% ;
+}
+
+#record
+{
+	min-height: 310px ;
+	max-height: 360px ;
+	
+	float: left ;
+	
+	height: 44% ;
+	width: 28% ;
+	
+	padding: 1% ;
+	border: 1px solid black ;
+	border-radius: 2px ;
+	border-left: 2px solid black ;
+	
+	margin: 1% ;
+	
+	background: #F8FBEF ;
+}
+#record:hover
+{
+	background: #FAFAD6 ;
+}
+
+#book-record
+{
+	font-size: 85% ;
+	color: red ;
+}
+
+#author-record
+{
+	font-size: 82% ;
+	
+	float: left ;
+	color: blue ;	
+}
+
+#book-image
+{
+	height: 60% ;
+	width: 56% ;
+	
+	float: center ;
+}
+
+#book-left
+{
+	font-size: 80% ;
+}
+
+#form-view-book
+{
+	;
+}
+
+#form-view-book-hide
+{
+	display: none ;
+}
+
+#form-view-book-submit
+{			
+	min-height: 24px ;
+	min-width: 60px ;
+	
+	height: 5% ;
+	width: 40% ;
+
+	font-size: 90% ;
+	
+	background: #A9E2F3	 ;
+	
+	margin-top: -4% ;
+	margin-left: 1% ;
+	margin-right: 1% ;
+	
+	float: right ;
+}
+
+#form-view-book-submit:hover 
+{	
+	cursor: pointer ;
+	color: white ;
+	background: #0080FF ;
+}
+
+#form-view-book-submit:active
+{
+	background: black ;
+	color: white ;
+}
+
+#form-book-book
+{
+	;
+}
+
+#form-book-book-hide
+{
+	display: none ;
+}
+
+
+#form-book-book-submit
+{			
+	min-height: 24px ;
+	min-width: 60px ;
+	
+	font-size: 90% ;
+	
+	height: 5% ;
+	width: 20% ;
+	
+	background: #BCF5A9	 ;
+	
+	margin-top: -9% ;
+	margin-left: -10% ;
+	
+	float: right ;
+}
+
+#form-book-book-submit:hover 
+{	
+	cursor: pointer ;
+	color: white ;
+	background: #80FF00 ;
+}
+
+#form-book-book-submit:active
+{
+	background: black ;
+	color: white ;
+}
+
+#button-inactive
+{
+	min-height: 20px ;
+	min-width: 200px ;
+	
+	max-height: 35px ;
+	
+	height: 5% ;
+	width: 5px ;
+
+	font-size: 90% ;
+	float: left ;
+	
+	background: #BFC0C0 ;
+}
+
+.hidden
+{
+	display: none ;
+}
+
+@media screen and (max-width:440px)
+{
+	body
+	{
+		overflow-x: hidden ;
+	}
+	#box-left
+	{
+		margin-left: 0 ;
+	}
+	#jump-top
+	{
+		left: 15px ;
+	}
+	#show-menu
+	{
+		display: inline-block ;
+	}
+	#show-filters
+	{
+		display: inline-block ;
+	}
+	#box-left1
+	{		
+		width: 135% ;
+		height: auto ;
+		
+		background: #FBF8EF ;
+		
+		border: 1px solid black ;
+	}	
+	#button-tag-upper, #button-tag-upper-search
+	{
+		height: 26px ;
+	}
+	#button-tag
+	{
+		height: 30px ;
+		margin-top: -15px ;
+	}
+	#main-menu, #filters-menu
+	{
+		display: none ;
+	}
+	#box-left2
+	{
+		margin-top: 0px ;
+		width: 135% ;
+		float: none ;
+		
+		background: #EFF547 ;
+		
+		border: 1px solid black ;
+	}
+		
+	#wrap
+	{
+		float: left ;
+		
+		height: auto ;
+		
+		margin-left: 0% ;
+		margin-right: 0% ;
+		margin-top: -420px ;
+		
+		transition: 0.6s ;
+		
+		width: 135% ;
+	}
+
+	#record
+	{
+		float: none ;
+		
+		height: 44% ;
+		width: 19% ;
+		
+		padding: 1% ;
+		border: 1px solid black ;
+		border-radius: 2px ;
+		border-left: 2px solid black ;
+		
+		margin: 0% ;
+		margin-top: 20px;
+		
+		background: #F8FBEF ;
+	}
+	#book-image
+	{
+		width: 44% ;
+	}
+	#form-book-book-submit
+	{
+		display: none ;
+	}
+	#form-view-book-submit
+	{
+		font-size: 120% ;
+	}
+
+}
+@media screen and (max-width:320px)
+{
+	#wrap
+	{
+		margin-top: -640px ;
+	}
+	#book-image
+	{
+		height: 90% ;
+	}
+}

@@ -1,0 +1,271 @@
+
+body
+{
+	background: #FBF8EF ;
+	
+	min-height: 900px ;
+	min-width: 1200px ;
+}
+
+#box-left
+{
+	height: 95% ;
+	width: 20%;
+
+	min-height: 600px ;
+	
+	margin-left: 2% ;	
+		
+	float: left ;
+}
+
+#small-text1
+{
+	font-size: 60% ;
+	color: red ;
+}
+
+#box-left1
+{
+	height: 6% ;
+
+	min-height: 220px ; 
+	max-height: 260px ;
+	
+	padding: 4% ;
+	
+	font-size: 170% ;
+	font-style: Times New Roman ;
+	
+	border: 1px solid black ;
+	border-right: 2px solid black ;
+	border-bottom: 2px solid black ;
+	
+	background: #FAFAFA ;
+}
+
+#button-tag-upper
+{
+	min-height: 20px ;
+	min-width: 200px ;
+	
+	max-height: 35px ;
+	
+	height: 5% ;
+	width: 60% ;
+
+	font-size: 48% ;
+	
+	background: #ECCA4C ;
+	color: black ;
+	
+	border:1px solid #E3A11C ;
+	border-radius: 2px ;
+	
+	margin-left: 5% ;
+	margin-top: -4% ;
+}
+
+#button-tag-upper:hover
+{
+	cursor: pointer ;
+	color: white ;
+	background: #E2A222 ;
+}
+
+#box-left2
+{
+	height: auto ;
+	
+	border: 1px solid black ;
+	
+	border-right: 2px solid black ;
+	border-bottom: 2px solid black ;
+	
+	background: #FAFAFA ;
+	
+	padding: 4% ;
+	
+}
+
+#textarea1
+{
+	width: 98% ;
+	height: 16% ;	
+	resize: none ;
+}
+
+#box-left2-text
+{
+	font-size: 120% ;
+}
+
+#button-tag
+{
+	min-height: 20px ;
+	min-width: 200px ;
+	
+	max-height: 35px ;
+	
+	height: 4% ;
+	width: 90% ;
+
+	font-size: 90% ;
+	
+	background: #F0B669 ;
+	
+	border:1px solid #8A0808 ;
+	border-radius: 2px ;
+	
+	margin-left: 5% ;
+	margin-top: -6% ;
+	padding: 1% ;
+}
+
+#button-tag:hover
+{
+	cursor: pointer ;
+	
+	background: #FA7007 ;
+}
+
+#button-tag:active
+{
+	background: black ;
+	color: white ;
+}
+
+#record
+{
+	min-height: 400px ;
+	max-height: 2000px ;
+	
+	width: 76% ;
+	float: left ;
+	
+	margin: 1% ;
+	
+	background: #F8F8F7 ;
+}
+
+#book-left-col
+{	
+	padding: 1% ;
+
+	max-height: 800px ;
+	
+	height: 94% ;
+	width: 50% ;
+	
+	float: left ;
+	margin: 1% ;
+	
+	background: #F8F8F7 ;
+}
+
+#book-record
+{
+	font-size: 160% ;
+	color: red ;
+}
+
+#author-record
+{
+	font-size: 140% ;
+	
+	float: left ;
+	color: blue ;	
+}
+
+#book-right-col
+{
+	height: 94% ;
+	width: 40% ;
+	
+	float: left ;
+	
+	border-left: 4px solid #FBF8EF ;
+	
+	padding: 1% ;
+	
+	background: #F8F8F7 ;
+}
+
+#book-image
+{
+	max-height: 380px ;
+	
+	min-height: 300px ;
+	
+	height: 65% ;
+	width: 65% ;
+	
+	float: center ;
+}
+
+#book-left
+{
+	font-size: 100% ;
+}
+
+#book-bookings
+{
+	color: red ;
+	font-size: 100% ;
+}
+#form-view-book
+{
+	
+}
+
+#form-view-book-hide
+{
+	display: none ;
+}
+
+#form-book-book
+{
+	
+}
+
+#form-book-book-hide
+{
+	display: none ;
+}
+
+
+#form-book-book-submit
+{			
+	min-height: 24px ;
+	min-width: 30px ;
+	
+	max-height: 40px ;
+	
+	font-size: 100% ;
+	
+	height: 5% ;
+	width: 65% ;
+	
+	background: #BCF5A9	 ;
+	
+	/* Use this to put button on book's image
+	margin-top:-5% ; */
+}
+
+#form-book-book-submit:hover 
+{	
+	cursor: pointer ;
+	
+	background: #80FF00 ;
+}
+
+#form-book-book-submit:active, #button-tag:active
+{
+	background: black ;
+	color: white ;
+}
+
+.hidden
+{
+	display:none ;
+}

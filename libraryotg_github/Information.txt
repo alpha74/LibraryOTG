@@ -1,0 +1,48 @@
+Settings
+--------
+Issue Interval = 7 days
+
+
+Timeouts(sec)
+-------------
+book-book: 300
+book-requested: 120
+book-review-submit:300
+book-view:300
+surfer-change-pass: 300
+surfer-change-pass-done: 120
+surfer-suggest: 600
+surfer-suggest-posted: 120
+
+To code 
+--------
+Fine Store per user id : NOTDONE
+<Undefined index: window Admin/admin-issue.php on line 20> FIX : NOTDONE
+ABOVE ISSUE fix in all windows: NOT DONE 
+
+Showing list of defaulters EXPLICITLY : NOT DONE
+Subject wise most popular book: NOT DONE
+
+Analysis Data with Admin: NOT DONE
+
+ADMIN not in Library-Display on Home page: NOT DONE
+
+NEW OFF FEATURES 
+-------------- 
+WhatsApp business account : Custom script
+PHP mailer
+
+
+---------------------
+
+Push notifications on web browser using javascript
+Browser push: onesignal.com
+lahiiru: browser push : Github
+ID card confiscations for Long time defaulters
+
+
+---------------------
+getdata-REFRESH:120
+getdata-bsearch:240
+
+

@@ -1,0 +1,282 @@
+
+body
+{
+	background: #FBF8EF ;
+	
+	min-height: 900px ;
+	min-width: 1200px ;
+}
+
+#box-left
+{
+	height: 95% ;
+	width: 20%;
+
+	min-height: 600px ;
+	
+	margin-left: 2% ;	
+		
+	float: left ;
+}
+
+#box-left1
+{
+	height: 6% ;
+
+	min-height: 220px ; 
+	max-height: 260px ;
+	
+	padding: 4% ;
+	
+	font-size: 170% ;
+	font-style: Times New Roman ;
+	
+	border: 1px solid black ;
+	border-right: 2px solid black ;
+	border-bottom: 2px solid black ;
+	
+	background: #FAFAFA ;
+}
+
+#box-left2
+{
+	height: auto ;
+	
+	border: 1px solid black ;
+	
+	border-right: 2px solid black ;
+	border-bottom: 2px solid black ;
+	
+	background: #FAFAFA ;
+	
+	padding: 4% ;
+	
+}
+
+#box-left2-text
+{
+	font-size: 120% ;
+}
+
+#button-tag-selected
+{
+	min-height: 20px ;
+	min-width: 200px ;
+	
+	max-height: 35px ;
+	
+	height: 4% ;
+	width: 72% ;
+
+	font-size: 90% ;
+	
+	background: #FA7007 ;
+	
+	border:1px solid #8A0808 ;
+	border-radius: 2px ;
+	
+	margin-left: 5% ;
+	margin-top: 1% ;
+	
+	padding: 1% ;
+}
+
+
+#button-tag
+{
+	min-height: 20px ;
+	min-width: 200px ;
+	
+	max-height: 35px ;
+	
+	height: 4% ;
+	width: 72% ;
+
+	font-size: 90% ;
+	
+	background: #F0B669 ;
+	
+	border:1px solid #8A0808 ;
+	border-radius: 2px ;
+	
+	margin-left: 5% ;
+	margin-top: 1% ;
+	
+	padding: 1% ;
+}
+
+#button-tag:hover
+{
+	cursor: pointer ;
+	
+	background: #FA7007 ;
+}
+
+#button-tag:active
+{
+	background: black ;
+	color: white ;
+}
+
+#output
+{
+	min-height: 250px ;
+	max-height: 360px ;
+	
+	float: left ;
+	
+	height: 40% ;
+	width: 28% ;
+	
+	padding: 2% ;
+	border: 1px solid black ;
+	border-radius: 2px ;
+	border-left: 2px solid black ;
+	
+	margin: 1% ;
+	
+	background: #F8FBEF ;
+}
+
+#wrong-text
+{
+	padding: 4% ;
+	
+	font-size: 120% ;
+	color: red ;
+}
+
+#correct-text1
+{
+	margin-left: 2% ;
+	
+	padding: 4% ;
+	
+	font-size: 140% ;	
+	color: blue ;	
+	
+	float: left ;
+}
+#correct-text2
+{
+	margin-left: 4% ;
+
+	padding: 4% ;
+	
+	font-size: 100% ;
+	color: #1FA5F1 ;
+	
+	float: left ;
+}
+
+#form1-hide
+{
+	display: none ;
+}
+#action_button1
+{
+	min-height: 24px ;
+	min-width: 100px ;
+	
+	max-height: 30px ;
+	
+	height: 6%;
+	width: 80% ;
+	
+	font-style: "Times New Roman" ;
+	
+	background: #F99225 ;
+	color: white ; 
+	border-radius: 4px; 
+}
+#action_button1:hover
+{
+	cursor: pointer ;
+	
+	background: #FB9F4F ;
+	color: black ;
+}
+
+#action_button2
+{
+	min-height: 24px ;
+	min-width: 100px ;
+	max-height: 30px ;
+	
+	font-style: "Times New Roman" ;
+	
+	height: 6%;
+	width: 80% ;
+	
+	background: #1EE842 ;
+	color: white ;
+	border-radius: 4px; 
+}
+#action_button2:hover
+{
+	background: #6FF730 ;
+	cursor: pointer ;
+	color: black ;
+}
+
+
+#action_button3
+{
+	min-height: 24px ;
+	min-width: 100px ;
+	max-height: 30px ;
+	
+	font-style: "Times New Roman" ;
+	
+	height: 6%;
+	width: 80% ;
+	
+	font-size: 80% ;
+	
+	background: #91CCED ;
+	
+	border-radius: 4px; 
+}	
+#action_button3:hover
+{
+	background: #1FA5F1 ;
+	cursor: pointer ;
+	color: white ;
+}
+
+#action_button4
+{
+	min-height: 24px ;
+	min-width: 100px ;
+	max-height: 30px ;
+	
+	font-style: "Times New Roman" ;
+	
+	height: 6%;
+	width: 80% ;
+	
+	font-size: 80% ;
+	
+	background: #C34444 ;
+	color: white ;
+	
+	border-radius: 4px; 
+	float: left ;
+}	
+#action_button4:hover
+{
+	background: #D36D6D ;
+	cursor: pointer ;
+	color: white ;
+}
+
+#action_button1:active,#action_button2:active, #action_button3:active, #action_button4:active
+{
+	background: black ;
+	color: white ;
+}
+
+.hidden
+{
+	display: none ;
+}

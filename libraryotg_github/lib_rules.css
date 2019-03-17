@@ -1,0 +1,157 @@
+body
+{
+	background-image: url( "Images/LOTG3.png" ) ;
+	background-attachment: fixed ;
+}
+
+@keyframes slide1
+{
+	0%
+	{
+		left: 1000px ;
+	}
+	100%
+	{
+		left: 0px ;
+	}
+}
+#content1, #content2, #content3, #content4, #content5, #content6
+{
+	width: 1000px ;
+	
+	background: white ;
+	opacity: 0.8 ;
+	
+	border: 1px solid #A4A4A4 ;
+	box-shadow: 2px 2px #D8D8D8 ;
+	
+	margin-bottom: 1% ;
+	text-align: center ;
+	
+	position: relative ;
+	transition-duration: 0.5s ;
+}
+#content1
+{	
+	animation-name: slide1 ;
+	animation-duration: 1s ;
+	
+	-webkit-animation-name: slide1 ;
+	-webkit-animation-duration: 1s ;
+	
+	-moz-animation-name: slide1 ;
+	-moz-animation-duration: 1s ;
+}
+#content2
+{
+	animation-name: slide1 ;
+	animation-duration: 1.4s ;
+	
+	-webkit-animation-name: slide1 ;
+	-webkit-animation-duration: 1.4s ;
+	
+	-moz-animation-name: slide1 ;
+	-moz-animation-duration: 1.4s ;
+}
+
+#content3
+{
+	animation-name: slide1 ;
+	animation-duration: 1.8s ;
+	
+	-webkit-animation-name: slide1 ;
+	-webkit-animation-duration: 1.8s ;
+	
+	-moz-animation-name: slide1 ;
+	-moz-animation-duration: 1.8s ;
+}
+
+#content4
+{
+	animation-name: slide1 ;
+	animation-duration: 1.8s ;
+	
+	-webkit-animation-name: slide1 ;
+	-webkit-animation-duration: 2.2s ;
+	
+	-moz-animation-name: slide1 ;
+	-moz-animation-duration: 2.2s ;
+}
+#content5
+{
+	animation-name: slide1 ;
+	animation-duration: 2.4s ;
+	
+	-webkit-animation-name: slide1 ;
+	-webkit-animation-duration: 2.4s ;
+	
+	-moz-animation-name: slide1 ;
+	-moz-animation-duration: 2.4s ;
+}
+#content6
+{
+	animation-name: slide1 ;
+	animation-duration: 2.6s ;
+	
+	-webkit-animation-name: slide1 ;
+	-webkit-animation-duration: 2.6s ;
+	
+	-moz-animation-name: slide1 ;
+	-moz-animation-duration: 2.6s ;
+}
+
+#content-row
+{
+	width: 1000px ;
+
+}
+#content-heading
+{
+	font-style: strong ;
+	font-size: 120% ;
+	margin-top: 1% ;
+}
+#content-data
+{
+	text-align: left ;
+	padding: 1% ;
+}
+.hidden
+{
+	display: none ;
+}
+
+@media screen and (max-width:840px)
+{
+	@keyframes slide1
+	{
+		0%
+		{
+			left: 400px ;
+		}
+		100%
+		{
+			left: 0px ;
+		}
+	}
+	#content1, #content2, #content3, #content4, #content5
+	{
+		width: 100% ;
+	}
+	#content-row
+	{
+		width: 100% ;
+	}
+	#content-data
+	{
+		font-size: 85% ;
+	}
+}
+@media screen and (max-width:300px)
+{
+	#content1, #content2, #content3
+	{
+		width: 300px ;
+	}
+}
+

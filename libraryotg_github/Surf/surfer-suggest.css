@@ -1,0 +1,376 @@
+body
+{
+	background: #FBF8EF ;
+	
+	min-height: 900px ;
+	min-width: 1200px ;
+}
+
+#box-left
+{
+	height: 95% ;
+	width: 20%;
+
+	min-height: 600px ;
+	
+	margin-left: 2% ;	
+		
+	float: left ;
+}
+
+#box-left1
+{
+	height: 6% ;
+
+	min-height: 220px ; 
+	max-height: 260px ;
+	
+	padding: 4% ;
+	
+	font-size: 140% ;
+	font-style: Times New Roman ;
+	
+	border: 1px solid black ;
+	border-right: 2px solid black ;
+	border-bottom: 2px solid black ;
+	
+	background: #FAFAFA ;
+}
+
+#button-tag-upper
+{
+	min-height: 20px ;
+	min-width: 200px ;
+	
+	max-height: 35px ;
+	
+	height: 5% ;
+	width: 60% ;
+
+	font-size: 60% ;
+	
+	background: #ECCA4C ;
+	color: black ;
+	
+	border:1px solid #E3A11C ;
+	border-radius: 2px ;
+	
+	margin-left: 5% ;
+	margin-top: -4% ;
+}
+
+#button-tag-upper:hover
+{
+	cursor: pointer ;
+	color: white ;
+	background: #E2A222 ;
+}
+#small-text1
+{
+	font-size: 80% ;
+	color: red ;
+}
+
+#box-left2
+{
+	height: auto ;
+	
+	border: 1px solid black ;
+	
+	border-right: 2px solid black ;
+	border-bottom: 2px solid black ;
+	
+	background: #FAFAFA ;
+	
+	padding: 4% ;
+	
+}
+
+#box-left2-text
+{
+	font-size: 100% ;
+}
+
+#button-tag-selected
+{
+	min-height: 20px ;
+	min-width: 200px ;
+	
+	max-height: 35px ;
+	
+	height: 4% ;
+	width: 72% ;
+
+	font-size: 90% ;
+	
+	background: #FA7007 ;
+	
+	border:1px solid #8A0808 ;
+	border-radius: 2px ;
+	
+	margin-left: 5% ;
+	margin-top: 1% ;
+	
+	padding: 1% ;
+}
+
+
+#button-tag
+{
+	min-height: 20px ;
+	min-width: 200px ;
+	
+	max-height: 35px ;
+	
+	height: 4% ;
+	width: 90% ;
+
+	font-size: 90% ;
+	
+	background: #F0B669 ;
+	
+	border:1px solid #8A0808 ;
+	border-radius: 2px ;
+	
+	margin-left: 5% ;
+	margin-top: -6% ;
+	padding: 1% ;
+}
+
+#button-tag:hover
+{
+	cursor: pointer ;
+	
+	background: #FA7007 ;
+}
+
+#button-tag:active
+{
+	background: black ;
+	color: white ;
+}
+
+#wrap
+{
+	float: left ;
+	
+	min-height: 40% ;
+	
+	margin-left: 2% ;
+	margin-right: 2% ;
+	
+	width: 72% ;
+}
+#title-bar
+{
+	min-height: 50px ;
+	max-height: 100px ;
+		
+	height: 8% ;
+	width: 90% ;
+	
+	border: 2px solid black ;
+	border-radius: 5px ;
+	
+	margin-left: 1% ;
+	
+	background: #E2FBEF ;
+}
+#title-bar-text
+{
+	padding: 2% ;
+	font-family: "Berlin Sans FB Demi" ;
+	
+	font-size: 160% ;
+	
+	color: #F04112 ;
+		
+	text-shadow: 1px 1px black ;
+	
+	transition-duration: 0.2s ;
+	-moz-transition-duration: 0.2s ;
+}
+#record
+{
+	min-height: 310px ;
+	max-height: 360px ;
+	
+	float: left ;
+	
+	height: 44% ;
+	width: 40% ;
+	
+	padding: 1% ;
+	border: 1px solid black ;
+	border-radius: 2px ;
+	border-left: 2px solid black ;
+	
+	margin: 1% ;
+	
+	background: #F8FBEF ;
+}
+
+#textarea1
+{
+	resize: none ;
+	
+	width: 90% ;
+	height: 60% ;
+	
+	font-style: oblique ;
+}
+
+#form-book-book
+{
+	margin-left: 5% ;
+}
+
+#form-input-box
+{
+	padding: 1% ;
+	width: 70% ;
+}
+#form-book-book-submit
+{			
+	min-height: 24px ;
+	min-width: 60px ;
+	
+	font-size: 90% ;
+	
+	height: 5% ;
+	width: 35% ;
+	
+	background: #BCF5A9	 ;
+}
+
+#form-book-book-submit:hover 
+{	
+	cursor: pointer ;
+	color: white ;
+	background: #80FF00 ;
+}
+
+#form-book-book-submit:active
+{
+	background: black ;
+	color: white ;
+}
+
+#button-inactive
+{
+	min-height: 20px ;
+	min-width: 200px ;
+	
+	max-height: 35px ;
+	
+	height: 5% ;
+	width: 5px ;
+
+	font-size: 90% ;
+	float: left ;
+	
+	background: #BFC0C0 ;
+}
+
+.hidden
+{
+	display: none ;
+}
+
+
+@media screen and (max-width:440px)
+{
+	body
+	{
+		overflow-x: hidden ;
+	}
+	#button-show
+	{
+		display: inline-block ;
+	}
+	#box-left
+	{
+		margin-left: 0 ;
+	}
+	#box-left1
+	{		
+		width: 120% ;
+		
+		min-height: 30px ;
+		height: 28% ;
+	}
+	#box-left2
+	{
+		width: 120% ;
+		display: none ;
+		float: none ;
+	}
+	#wrap
+	{
+		width: 60% ;
+		min-height: 200px ;
+		height: 50% ;
+		
+		margin-top: 14% ;
+		
+		margin-left: -20% ;
+	}
+	#title-bar
+	{
+		width: 42% ;
+		display:none ;
+	}
+	#textarea1
+	{
+		height: 70% ;	
+		margin-top: -20px ;
+		font-size: 140% ;
+	}
+	#record
+	{
+		min-height: 300px ;
+		height: 120% ;
+		width: 41% ;
+		
+		float: none ;
+		display: inline-block ;
+		
+		margin: 0% ;
+		margin-top: 50px ;
+		
+		transition: 1s ;
+	}
+	#button-tag-upper	
+	{
+		margin-top: -7% ;
+		height: 26px ;
+		font-size: 80% ;
+	}
+	}
+	#book-record
+	{
+		width: 104% ;
+		height: 105% ;
+	}
+}
+@media screen and (max-width:320px)
+{
+	#box-left1
+	{		
+		width: 105% ;
+		
+		min-height: 30px ;
+		height: 28% ;
+	}
+	#box-left2
+	{
+		width: 70% ;
+		display: none ;
+		float: none ;
+	}
+	#record
+	{
+		width: 36% ;
+		
+	}
+}

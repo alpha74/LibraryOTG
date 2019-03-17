@@ -1,0 +1,347 @@
+body
+{
+	background: #F5F3F3;
+	background-image: url( "Images/LOTG4.png" ) ;
+	
+	min-height: 100px ;
+	min-width: 1000px ;
+	
+	font-style: "Times New Roman" ;	
+}
+#mobile-buttons
+{
+	width: 35% ;
+	height: 2% ;
+}
+
+#mobile-button1, #mobile-button2, #mobile-button3
+{
+	display:none ;
+	height: 120% ;
+	width: 32% ;
+	
+	background: white ;
+	opacity: 0.6 ;
+}
+#mobile-button1:hover, #mobile-button2:hover, #mobile-button3:hover
+{
+	cursor: pointer ;
+}
+#header_text1
+{
+	font-size: 160% ;
+}
+
+#wrapper
+{
+	float: left ;
+	width: 98% ;
+}
+
+#outerbox1
+{
+	background: white ;
+	min-height: 490px ;	
+	
+	margin-left: 1% ;
+	margin-top:  1% ;
+	
+	width: 30% ;
+	
+	float: left ;
+	
+	border: 2px solid black ;
+	opacity: 0.8 ;
+	
+	transition: 0.2s ;
+}
+
+#outerbox2
+{
+	background: white ;
+	min-height: 490px ;
+	
+	display: inline-block ;
+	
+	margin-left: 1% ;
+	margin-top: 1% ;
+	
+	width: 38% ;
+	
+	float: left ;
+	
+	border: 2px solid black ;
+	
+	font-size: 90% ;
+	opacity: 0.7 ;
+	transition: 0.2s ;
+}
+
+#outerbox3
+{
+	background: white ;
+	min-height: 490px ;
+	max-height: 500px ;
+	
+	display: inline-block ;
+	
+	margin-left: 1% ;
+	margin-top: 1% ;
+	
+	width: 28% ;
+	
+	float: left ;
+	
+	border: 2px solid black ;
+	
+	font-size: 90% ;
+	opacity: 0.7 ;
+	transition: 0.2s ;
+}
+#outerbox1:hover, #outerbox2:hover, #outerbox3:hover
+{
+	opacity: 0.9 ;
+}
+
+
+#content_text
+{
+	padding: 6% ;
+	font-style: "Courier" ;
+}
+#content-text1
+{
+	padding: 6% ;
+	font-style: "Courier" ;
+	font-size: 110% ;
+}
+
+#form1box
+{
+	padding: 1% ;
+}
+
+#form1
+{
+	min-height: 20px ;
+	min-width: 100px ;
+	
+	height: 2%;
+	width: 80% ;
+}
+
+#small-text1
+{
+	font-size: 90% ;
+}
+
+#form2box
+{
+	display: no ;
+	font-size: 100% ; 
+	
+}
+#form2
+{
+	min-height: 20px ;
+	min-width: 100px ;
+	
+	height: 2%;
+	width: 80% ;
+}
+
+#action_button1
+{
+	min-height: 20px ;
+	min-width: 100px ;
+	
+	max-height: 30px ;
+	
+	height: 4%;
+	width: 80% ;
+	
+	font-style: "Times New Roman" ;
+	
+	background: #F99225 ;
+	color: white ; 
+	border-radius: 4px; 
+}
+#action_button1:hover
+{
+	cursor: pointer ;
+	
+	background: #FB9F4F ;
+	color: black ;
+}
+#action_button2
+{
+	min-height: 20px ;
+	min-width: 100px ;
+	max-height: 30px ;
+	
+	font-style: "Times New Roman" ;
+	
+	height: 4%;
+	width: 80% ;
+	
+	background: #1EE842 ;
+	color: white ;
+	border-radius: 4px; 
+}
+#action_button2:hover
+{
+	background: #6FF730 ;
+	cursor: pointer ;
+	color: black ;
+}
+
+#action_button3
+{
+	min-height: 18px ;
+	min-width: 100px ;
+	max-height: 30px ;
+	
+	font-style: "Times New Roman" ;
+	
+	height: 4%;
+	width: 45% ;
+	
+	font-size: 80% ;
+	
+	background: #91CCED ;
+	
+	border-radius: 4px; 
+}	
+#action_button3:hover
+{
+	background: #1FA5F1 ;
+	cursor: pointer ;
+	color: white ;
+}
+
+#action_button4
+{
+	min-height: 18px ;
+	min-width: 100px ;
+	max-height: 30px ;
+	
+	height: 4%;
+	width: 80%	 ;
+	
+	font-style: "Times New Roman" ;
+	font-size: 80% ;
+	
+	background: #91CCED ;
+	
+	border-radius: 4px; 
+}
+#action_button4:hover
+{
+	background: #1FA5F1 ;
+	cursor: pointer ;
+	
+	color: white ;
+}
+
+#action_button1:active,#action_button2:active, #action_button3:active, #action_button4:active
+{
+	background: black ;
+	color: white ;
+}
+#slide-image
+{
+	max-height: 390px ;
+}
+
+.hidden
+{
+	display: none ;
+}
+
+@media screen and (max-width:420px)
+{
+	body
+	{
+		overflow-x: hidden ;
+	}
+	#mobile-buttons
+	{
+		width: 35% ;
+		height: 26px ;
+		min-height: 28px ;
+	}
+	#mobile-button1
+	{
+		opacity: 0.8 ;
+		display: inline-block ;
+	}
+	#mobile-button2, #mobile-button3
+	{
+		display: inline-block ;
+	}
+	#wrapper
+	{
+		;
+	}
+	#outerbox1
+	{
+		width: 35% ;
+		float: none ;
+		opacity: 0.9 ;
+		margin-left: 0% ;
+	}
+	#content_text
+	{
+		font-size: 120% ; 
+	}
+	#outerbox2
+	{
+		width: 35% ;
+		float: none ;
+		margin-left: 0% ;
+		display: none ;
+			
+	}
+	#outerbox3
+	{
+		width: 35% ;
+		margin-left: 0% ;
+		display: none ;
+		
+	}
+}
+@media screen and (max-width:320px)
+{
+	body
+	{
+		;
+	}
+	#mobile-buttons
+	{
+		width: 32% ;
+	}
+	#wrapper
+	{
+		width: 90% ;
+		margin-left: 0 % ;
+	}
+	#outerbox1
+	{
+		width: 36% ; 
+		float: none ;
+		margin-left: 0% ;
+	}
+	#outerbox2
+	{
+		width: 34% ;
+		float: none ;
+		margin-left: 0% ;
+		display: none ;
+	}
+	#outerbox3
+	{
+		width: 34% ;
+		margin-left: 0% ;
+		display: none ;
+	}
+}

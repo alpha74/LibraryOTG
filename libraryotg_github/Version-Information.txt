@@ -1,0 +1,52 @@
+Versions
+---------
+
+1.0 
+	Has Surfer mode
+2.0 
+	Has Admin mode
+2.1 
+	Has Search book, Review, Suggestions submit
+2.2
+	Change password settings
+3.1 
+	Library Rules page made
+3.5
+	Security loophole fixed
+3.7	
+	Enhanced GUI for admin
+	Admin Book search
+	Auto Update and display of Trending Books
+
+3.9
+	Use of mysqli functions
+
+3.9.2
+	Using maxlength input in home page and all admin inputs
+3.9.3
+	Added BG color to hover on Book Plate record
+3.9.4
+	Displays Bookid on hover on Book record plate in Surfer mode
+	Search now also include BOOKID
+3.9.5	
+	Manual Issue now requires only 3 inputs
+	Track Regno now requires only 1 input
+3.9.6
+	Track Return fixed: Showed according to Acc. number
+3.9.7	
+	Name is now also saved in database for Suggestions
+	Name is now also saved in database in Book Reviews
+3.9.8	
+	Book Reviews will now show Names with Regno( already )
+3.9.9
+	Book Rating will now be displayed regardless of Pieces Left( Code Copied 
+3.10
+	Surfer will now be able to see his/her Records and Issue History
+3.10.1
+	Book request allowed more books to be issued than limit: fixed
+	
+3.10.2
+	Track Issue and Return On Date: Regno number button is added
+
+3.10.3
+	Log out time and logout status added 
