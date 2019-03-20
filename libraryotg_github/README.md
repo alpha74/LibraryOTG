@@ -16,5 +16,5 @@ LIBRARY ON THE GO
   * Javascript
   
 # SOFTWARES USED:
-  1. XAMPP with MySQL
+  * XAMPP with MySQL
   
