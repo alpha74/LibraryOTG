@@ -1,20 +1,20 @@
-LIBRARY ON THE GO
-======================
+# LIBRARY ON THE GO
 
-# FEATURES:
-  * Hosted Locally
-  * Easy Interface for both Admin and Student
-  * Easy addition of new Data
-  * Features like: Book Availability, Books Left, Book Request, Book Review
+## FEATURES
+
+-   Hosted Locally
+-   Easy Interface for both Admin and Student.
+-   Easy addition of new Data.
+-   Book Availability, Books Left, Book Request, Book Review.
   
+## LANGUAGES USED
+
+-   PHP
+-   SQL
+-   HTML
+-   CSS
+-   Javascript
   
-# LANGUAGES USED:
-  * PHP
-  * SQL
-  * HTML
-  * CSS
-  * Javascript
-  
-# SOFTWARES USED:
-  * XAMPP with MySQL
+## SOFTWARE TOOLS USED
+-   XAMPP with MySQL
   
