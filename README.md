@@ -1,8 +1,7 @@
-# Library On The Go #LOTG
+# LOTG
+## Library On The Go
 
----
-
-### Features:
+### Features of LOTG:
   * Hosted Locally
   * Easy Interface for both Admin and Student
   * Easy addition of new Data
