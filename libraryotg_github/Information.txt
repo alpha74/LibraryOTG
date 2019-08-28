@@ -1,5 +1,8 @@
 Settings
 --------
+- This is not a configuration file.
+- Used to store the current values of the app.
+
 Issue Interval = 7 days
 
 
