@@ -1,20 +1,7 @@
-LIBRARY ON THE GO
-======================
+# LOTG
+## Library On The Go
 
-# FEATURES:
-  * Hosted Locally
-  * Easy Interface for both Admin and Student
-  * Easy addition of new Data
-  * Features like: Book Availability, Books Left, Book Request, Book Review
-  
-  
-# LANGUAGES USED:
-  * PHP
-  * SQL
-  * HTML
-  * CSS
-  * Javascript
-  
-# SOFTWARES USED:
-  * XAMPP with MySQL
+### Deploy:
+- Download and copy the parent folder _libraryotg_github_ to `htdocs` folder of `apache` server.
+- Open the browser and navigate to this repository through `localhost`.
   
