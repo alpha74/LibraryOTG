@@ -1,21 +1,22 @@
-LIBRARY ON THE GO
-======================
+# Library On The Go #LOTG
 
-# FEATURES:
+---
+
+### Features:
   * Hosted Locally
   * Easy Interface for both Admin and Student
   * Easy addition of new Data
-  * Features like: Book Availability, Books Left, Book Request, Book Review
+  * Features like: Book Availability, Books Left, Book Request, Book Review/Comments
 
   * Tested on Win 7, Win 10, Centos 7, Ubuntu 16.
   
-# LANGUAGES USED:
+### Languages used:
   * PHP
   * SQL
   * HTML
   * CSS
   * Javascript
   
-# SOFTWARES USED:
+### Softwares used:
   * XAMPP with MySQL
   
