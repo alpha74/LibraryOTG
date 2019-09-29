@@ -25,4 +25,4 @@
 ![Admin Page](https://github.com/alpha74/LOTG/blob/master/screenshots/admin_page.png)
 
 2. Surfer Page
-![Admin Page](https://github.com/alpha74/LOTG/blob/master/screenshots/surfer_page.png)
+![Admin Page](https://github.com/alpha74/LOTG/blob/master/screenshots/surfer_home.png)
